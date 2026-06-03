@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="633.0" prefWidth="600.0" style="-fx-background-image: https://www.peakpx.com/en/search?q=dark; -fx-background-radius: 20;" xmlns="http://javafx.com/javafx/25.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.CalculatorController">
+   <children>
+      <TextField fx:id="display" alignment="TOP_RIGHT" layoutX="38.0" layoutY="30.0" prefHeight="74.0" prefWidth="525.0" promptText="0">
+         <font>
+            <Font name="System Bold Italic" size="27.0" />
+         </font>
+      </TextField>
+      <GridPane hgap="10.0" layoutX="38.0" layoutY="124.0" minHeight="60.0" minWidth="10.0" prefHeight="415.0" prefWidth="482.0" vgap="10.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="60.0" minWidth="10.0" prefWidth="60.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="60.0" minWidth="10.0" prefWidth="60.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="60.0" minWidth="10.0" prefWidth="60.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="60.0" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="60.0" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="60.0" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="60.0" minWidth="10.0" prefWidth="60.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="60.0" minHeight="10.0" prefHeight="60.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="60.0" minHeight="10.0" prefHeight="60.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="60.0" minHeight="10.0" prefHeight="60.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="60.0" minHeight="10.0" prefHeight="60.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="60.0" minHeight="10.0" prefHeight="60.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="60.0" minHeight="10.0" prefHeight="60.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Button fx:id="btn9" layoutX="80.0" layoutY="28.0" mnemonicParsing="false" onAction="#handleNumber" prefHeight="24.0" prefWidth="55.0" style="-fx-background-radius: 50; -fx-background-color: #BF40BF;" text="9" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+            <Button fx:id="btn1" layoutX="150.0" layoutY="168.0" mnemonicParsing="false" onAction="#handleNumber" prefHeight="24.0" prefWidth="55.0" style="-fx-background-radius: 50; -fx-background-color: #BF40BF;" text="1" GridPane.rowIndex="1" />
+            <Button fx:id="btn2" layoutX="150.0" layoutY="168.0" mnemonicParsing="false" onAction="#handleNumber" prefHeight="24.0" prefWidth="55.0" style="-fx-background-radius: 50; -fx-background-color: #BF40BF;" text="2" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Button fx:id="btn3" layoutX="150.0" layoutY="168.0" mnemonicParsing="false" onAction="#handleNumber" prefHeight="24.0" prefWidth="55.0" style="-fx-background-radius: 50; -fx-background-color: #BF40BF;" text="3" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <Button fx:id="btn4" layoutX="150.0" layoutY="168.0" mnemonicParsing="false" onAction="#handleNumber" prefHeight="24.0" prefWidth="55.0" style="-fx-background-radius: 50; -fx-background-color: #BF40BF;" text="4" GridPane.rowIndex="2" />
+            <Button fx:id="btn5" layoutX="150.0" layoutY="168.0" mnemonicParsing="false" onAction="#handleNumber" prefHeight="24.0" prefWidth="55.0" style="-fx-background-radius: 50; -fx-background-color: #BF40BF;" text="5" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Button fx:id="btn6" layoutX="150.0" layoutY="168.0" mnemonicParsing="false" onAction="#handleNumber" prefHeight="24.0" prefWidth="55.0" style="-fx-background-radius: 50; -fx-background-color: #BF40BF;" text="6" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <Button fx:id="btn7" layoutX="150.0" layoutY="168.0" mnemonicParsing="false" onAction="#handleNumber" prefHeight="24.0" prefWidth="55.0" style="-fx-background-radius: 50; -fx-background-color: #BF40BF;" text="7" GridPane.rowIndex="3" />
+            <Button fx:id="btn8" layoutX="10.0" layoutY="168.0" mnemonicParsing="false" onAction="#handleNumber" prefHeight="24.0" prefWidth="55.0" style="-fx-background-radius: 50; -fx-background-color: #BF40BF;" text="8" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <Button fx:id="btn0" layoutX="150.0" layoutY="168.0" mnemonicParsing="false" onAction="#handleNumber" prefHeight="24.0" prefWidth="55.0" style="-fx-background-radius: 50; -fx-background-color: #BF40BF;" text="0" GridPane.rowIndex="4" />
+            <Button fx:id="btnClear" mnemonicParsing="false" onAction="#handleClear" prefHeight="72.0" prefWidth="60.0" style="-fx-background-color: #9F2B68;" text="c" />
+            <Button fx:id="btnBackspace" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#handleBackspace" prefHeight="72.0" prefWidth="60.0" style="-fx-background-color: #9F2B68;" text="x" GridPane.columnIndex="1" />
+            <Button fx:id="btnPercent" layoutX="80.0" layoutY="10.0" mnemonicParsing="false" onAction="#handlePercent" prefHeight="72.0" prefWidth="60.0" style="-fx-background-color: #9F2B68;" text="\%" GridPane.columnIndex="2" />
+            <Button fx:id="btnDecimal" layoutX="10.0" layoutY="308.0" mnemonicParsing="false" onAction="#handleDecimal" prefHeight="24.0" prefWidth="55.0" style="-fx-background-radius: 50; -fx-background-color: #BF40BF;" text="." GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <Button fx:id="btnDivide" mnemonicParsing="false" onAction="#handleOperator" prefHeight="24.0" prefWidth="57.0" style="-fx-background-radius: 80; -fx-background-color: #E6E6FA;" text="÷" GridPane.rowIndex="5" />
+            <Button fx:id="btnMultiply" layoutX="220.0" layoutY="98.0" mnemonicParsing="false" onAction="#handleOperator" prefHeight="24.0" prefWidth="57.0" style="-fx-background-radius: 80; -fx-background-color: #E6E6FA;" text="×" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+            <Button fx:id="btnSubtract" layoutX="220.0" layoutY="168.0" mnemonicParsing="false" onAction="#handleOperator" prefHeight="24.0" prefWidth="57.0" style="-fx-background-radius: 80; -fx-background-color: #E6E6FA;" text="-" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+            <Button fx:id="btnAdd" layoutX="220.0" layoutY="238.0" mnemonicParsing="false" onAction="#handleOperator" prefHeight="24.0" prefWidth="57.0" style="-fx-background-radius: 80; -fx-background-color: #E6E6FA;" text="+" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+            <Button fx:id="btnSquare" mnemonicParsing="false" onAction="#handleSquare" style="-fx-background-radius: 90; -fx-background-color: #CF9FFF;" text="x²" GridPane.columnIndex="3">
+               <padding>
+                  <Insets bottom="10.0" left="20.0" right="20.0" top="10.0" />
+               </padding>
+            </Button>
+            <Button fx:id="btnSqrt" layoutX="220.0" layoutY="22.0" mnemonicParsing="false" onAction="#handleSqrt" style="-fx-background-radius: 90; -fx-background-color: #CF9FFF;" text="√x" GridPane.columnIndex="4">
+               <padding>
+                  <Insets bottom="10.0" left="20.0" right="20.0" top="10.0" />
+               </padding>
+            </Button>
+            <Button fx:id="btnReciprocal" layoutX="290.0" layoutY="22.0" mnemonicParsing="false" onAction="#handleReciprocal" style="-fx-background-radius: 90; -fx-background-color: #CF9FFF;" text="1/x" GridPane.columnIndex="5">
+               <padding>
+                  <Insets bottom="10.0" left="20.0" right="20.0" top="10.0" />
+               </padding>
+               <font>
+                  <Font size="11.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnSin" mnemonicParsing="false" onAction="#handleSin" style="-fx-background-radius: 10; -fx-background-color: #AA98A9;" text="sin" GridPane.columnIndex="3" GridPane.rowIndex="1">
+               <padding>
+                  <Insets bottom="10.0" left="20.0" right="20.0" top="10.0" />
+               </padding>
+            </Button>
+            <Button fx:id="btnPower" layoutX="220.0" layoutY="92.0" mnemonicParsing="false" onAction="#handlePower" style="-fx-background-radius: 10; -fx-background-color: #AA98A9;" text="xʸ" GridPane.columnIndex="3" GridPane.rowIndex="2">
+               <padding>
+                  <Insets bottom="10.0" left="20.0" right="20.0" top="10.0" />
+               </padding>
+            </Button>
+            <Button fx:id="btnCos" layoutX="220.0" layoutY="162.0" mnemonicParsing="false" onAction="#handleCos" style="-fx-background-radius: 10; -fx-background-color: #AA98A9;" text="cos" GridPane.columnIndex="4" GridPane.rowIndex="1">
+               <padding>
+                  <Insets bottom="10.0" left="20.0" right="20.0" top="10.0" />
+               </padding>
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnTan" layoutX="290.0" layoutY="92.0" mnemonicParsing="false" onAction="#handleTan" style="-fx-background-radius: 10; -fx-background-color: #AA98A9;" text="tan" GridPane.columnIndex="5" GridPane.rowIndex="1">
+               <padding>
+                  <Insets bottom="10.0" left="20.0" right="20.0" top="10.0" />
+               </padding>
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnLn" layoutX="360.0" layoutY="92.0" mnemonicParsing="false" onAction="#handleLn" style="-fx-background-radius: 10; -fx-background-color: #AA98A9;" text="ln" GridPane.columnIndex="4" GridPane.rowIndex="2">
+               <padding>
+                  <Insets bottom="10.0" left="20.0" right="20.0" top="10.0" />
+               </padding>
+            </Button>
+            <Button fx:id="btnPi" layoutX="360.0" layoutY="92.0" mnemonicParsing="false" onAction="#handlePi" style="-fx-background-radius: 10; -fx-background-color: #AA98A9;" text="π" GridPane.columnIndex="5" GridPane.rowIndex="2">
+               <padding>
+                  <Insets bottom="10.0" left="20.0" right="20.0" top="10.0" />
+               </padding>
+            </Button>
+            <Button fx:id="btnLog" layoutX="220.0" layoutY="162.0" mnemonicParsing="false" onAction="#handleLog" style="-fx-background-radius: 10; -fx-background-color: #AA98A9;" text="log" GridPane.columnIndex="6" GridPane.rowIndex="1">
+               <padding>
+                  <Insets bottom="10.0" left="20.0" right="20.0" top="10.0" />
+               </padding>
+            </Button>
+            <Button fx:id="btnCube" layoutX="360.0" layoutY="162.0" mnemonicParsing="false" onAction="#handleCube" style="-fx-background-radius: 10; -fx-background-color: #AA98A9;" text="x³" GridPane.columnIndex="6" GridPane.rowIndex="2">
+               <padding>
+                  <Insets bottom="10.0" left="20.0" right="20.0" top="10.0" />
+               </padding>
+            </Button>
+            <Button fx:id="btnOpenParen" mnemonicParsing="false" onAction="#handleOpenParen" style="-fx-background-radius: 5; -fx-background-color: #915F6D;" text="(" GridPane.columnIndex="4" GridPane.rowIndex="5">
+               <padding>
+                  <Insets bottom="10.0" left="25.0" right="25.0" top="10.0" />
+               </padding>
+            </Button>
+            <Button fx:id="btnCloseParen" layoutX="290.0" layoutY="372.0" mnemonicParsing="false" onAction="#handleCloseParen" style="-fx-background-radius: 5; -fx-background-color: #915F6D;" text=")" GridPane.columnIndex="5" GridPane.rowIndex="5">
+               <padding>
+                  <Insets bottom="10.0" left="25.0" right="25.0" top="10.0" />
+               </padding>
+            </Button>
+            <Button fx:id="btnE" layoutX="220.0" layoutY="162.0" mnemonicParsing="false" onAction="#handleE" style="-fx-background-radius: 10; -fx-background-color: #AA98A9;" text="e" GridPane.columnIndex="3" GridPane.rowIndex="3">
+               <padding>
+                  <Insets bottom="10.0" left="20.0" right="20.0" top="10.0" />
+               </padding>
+            </Button>
+            <Button fx:id="btnFactorial" layoutX="220.0" layoutY="232.0" mnemonicParsing="false" onAction="#handleFactorial" style="-fx-background-radius: 10; -fx-background-color: #AA98A9;" text="n!" GridPane.columnIndex="4" GridPane.rowIndex="3">
+               <padding>
+                  <Insets bottom="10.0" left="20.0" right="20.0" top="10.0" />
+               </padding>
+            </Button>
+            <Button fx:id="btnMod" layoutX="290.0" layoutY="232.0" mnemonicParsing="false" onAction="#handleMod" style="-fx-background-radius: 10; -fx-background-color: #AA98A9;" text="mod" GridPane.columnIndex="5" GridPane.rowIndex="3">
+               <padding>
+                  <Insets bottom="10.0" left="20.0" right="20.0" top="10.0" />
+               </padding>
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnAbs" layoutX="360.0" layoutY="232.0" mnemonicParsing="false" onAction="#handleAbs" style="-fx-background-radius: 10; -fx-background-color: #AA98A9;" text="abs" GridPane.columnIndex="6" GridPane.rowIndex="3">
+               <padding>
+                  <Insets bottom="10.0" left="20.0" right="20.0" top="10.0" />
+               </padding>
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnSign" layoutX="220.0" layoutY="232.0" mnemonicParsing="false" onAction="#handleSign" style="-fx-background-radius: 10; -fx-background-color: #AA98A9;" text="±" GridPane.columnIndex="3" GridPane.rowIndex="4">
+               <padding>
+                  <Insets bottom="10.0" left="20.0" right="20.0" top="10.0" />
+               </padding>
+            </Button>
+            <Button fx:id="btnAns" layoutX="220.0" layoutY="232.0" mnemonicParsing="false" onAction="#handleAns" style="-fx-background-radius: 10; -fx-background-color: #AA98A9;" text="Ans" GridPane.columnIndex="4" GridPane.rowIndex="4">
+               <padding>
+                  <Insets bottom="10.0" left="20.0" right="20.0" top="10.0" />
+               </padding>
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnMC" layoutX="290.0" layoutY="302.0" mnemonicParsing="false" onAction="#handleMC" style="-fx-background-radius: 10; -fx-background-color: #AA98A9;" text="MC" GridPane.columnIndex="5" GridPane.rowIndex="4">
+               <padding>
+                  <Insets bottom="10.0" left="20.0" right="20.0" top="10.0" />
+               </padding>
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnMR" layoutX="360.0" layoutY="302.0" mnemonicParsing="false" onAction="#handleMR" style="-fx-background-radius: 10; -fx-background-color: #AA98A9;" text="MR" GridPane.columnIndex="6" GridPane.rowIndex="4">
+               <padding>
+                  <Insets bottom="10.0" left="20.0" right="20.0" top="10.0" />
+               </padding>
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnAC" layoutX="220.0" layoutY="302.0" mnemonicParsing="false" onAction="#handleAC" style="-fx-background-radius: 10; -fx-background-color: #AA98A9;" text="AC" GridPane.columnIndex="2" GridPane.rowIndex="4">
+               <padding>
+                  <Insets bottom="10.0" left="20.0" right="20.0" top="10.0" />
+               </padding>
+            </Button>
+            <Button fx:id="btnEquals" mnemonicParsing="false" onAction="#handleEquals" prefHeight="59.0" prefWidth="59.0" style="-fx-background-radius: 5; -fx-background-color: #C3B1E1;" text="=" GridPane.columnIndex="6" GridPane.rowIndex="5" />
+            <Button fx:id="btnFactorial" layoutX="360.0" layoutY="22.0" mnemonicParsing="false" onAction="#handleFactorial" style="-fx-background-radius: 90; -fx-background-color: #CF9FFF;" text="!" GridPane.columnIndex="6">
+               <padding>
+                  <Insets bottom="10.0" left="20.0" right="20.0" top="10.0" />
+               </padding>
+            </Button>
+         </children>
+      </GridPane>
+   </children>
+</AnchorPane>

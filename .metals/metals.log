@@ -1,0 +1,441 @@
+2026.06.02 15:17:27 INFO  Started: Metals version 1.6.7 in folders '/home/kali/dadlaga..' for client Visual Studio Code 1.117.0.
+2026.06.02 15:17:27 INFO  Memory monitor started
+2026.06.02 15:17:27 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.06.02 15:17:27 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/App.java. Using fallback presentation compiler.
+2026.06.02 15:17:27 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/App.java. Using fallback presentation compiler.
+2026.06.02 15:17:27 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/App.java. Using fallback presentation compiler.
+2026.06.02 15:17:27 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/App.java. Using fallback presentation compiler.
+2026.06.02 15:17:27 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/App.java. Using fallback presentation compiler.
+2026.06.02 15:17:27 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/App.java. Using fallback presentation compiler.
+2026.06.02 15:17:28 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/App.java. Using fallback presentation compiler.
+2026.06.02 15:17:28 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/App.java. Using fallback presentation compiler.
+2026.06.02 15:17:30 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/App.java. Using fallback presentation compiler.
+2026.06.02 15:17:30 WARN  no build target for: /home/kali/dadlaga../niilber/src/main/java/com/example/App.java
+2026.06.02 15:17:30 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/App.java. Using fallback presentation compiler.
+2026.06.02 15:17:31 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/App.java. Using fallback presentation compiler.
+2026.06.02 15:17:31 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/App.java. Using fallback presentation compiler.
+2026.06.02 15:17:33 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/App.java. Using fallback presentation compiler.
+2026.06.02 15:17:33 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/App.java. Using fallback presentation compiler.
+2026.06.02 15:17:45 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/App.java. Using fallback presentation compiler.
+2026.06.02 15:17:45 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/App.java. Using fallback presentation compiler.
+2026.06.02 15:17:45 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/App.java. Using fallback presentation compiler.
+2026.06.02 15:17:46 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/App.java. Using fallback presentation compiler.
+2026.06.02 15:17:46 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/App.java. Using fallback presentation compiler.
+2026.06.02 15:17:49 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/App.java. Using fallback presentation compiler.
+2026.06.02 15:18:05 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/main.java. Using fallback presentation compiler.
+2026.06.02 15:18:05 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/main.java. Using fallback presentation compiler.
+2026.06.02 15:18:05 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/main.java. Using fallback presentation compiler.
+2026.06.02 15:18:05 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/main.java. Using fallback presentation compiler.
+2026.06.02 15:18:05 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/main.java. Using fallback presentation compiler.
+2026.06.02 15:18:06 WARN  no build target for: /home/kali/dadlaga../niilber/src/main/java/com/example/main.java
+2026.06.02 15:18:06 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/main.java. Using fallback presentation compiler.
+2026.06.02 15:18:09 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/App.java. Using fallback presentation compiler.
+2026.06.02 15:18:09 WARN  no build target for: /home/kali/dadlaga../niilber/src/main/java/com/example/App.java
+2026.06.02 15:18:09 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/App.java. Using fallback presentation compiler.
+2026.06.02 15:18:09 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/App.java. Using fallback presentation compiler.
+2026.06.02 15:18:09 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/App.java. Using fallback presentation compiler.
+2026.06.02 15:18:09 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/App.java. Using fallback presentation compiler.
+2026.06.02 15:18:09 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/main.java. Using fallback presentation compiler.
+2026.06.02 15:18:10 WARN  no build target for: /home/kali/dadlaga../niilber/src/main/java/com/example/main.java
+2026.06.02 15:18:10 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/main.java. Using fallback presentation compiler.
+2026.06.02 15:18:10 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/main.java. Using fallback presentation compiler.
+2026.06.02 15:18:10 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/main.java. Using fallback presentation compiler.
+2026.06.02 15:18:12 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/main.java. Using fallback presentation compiler.
+2026.06.02 15:18:12 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/App.java. Using fallback presentation compiler.
+2026.06.02 15:18:13 WARN  no build target for: /home/kali/dadlaga../niilber/src/main/java/com/example/App.java
+2026.06.02 15:18:13 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/App.java. Using fallback presentation compiler.
+2026.06.02 15:18:12 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/App.java. Using fallback presentation compiler.
+2026.06.02 15:18:12 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/App.java. Using fallback presentation compiler.
+2026.06.02 15:18:12 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/App.java. Using fallback presentation compiler.
+2026.06.02 15:18:30 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/PrimaryController.java. Using fallback presentation compiler.
+2026.06.02 15:18:30 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/PrimaryController.java. Using fallback presentation compiler.
+2026.06.02 15:18:30 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/PrimaryController.java. Using fallback presentation compiler.
+2026.06.02 15:18:31 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/PrimaryController.java. Using fallback presentation compiler.
+2026.06.02 15:18:31 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/App.java. Using fallback presentation compiler.
+2026.06.02 15:18:32 WARN  no build target for: /home/kali/dadlaga../niilber/src/main/java/com/example/App.java
+2026.06.02 15:18:32 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/App.java. Using fallback presentation compiler.
+2026.06.02 15:18:31 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/App.java. Using fallback presentation compiler.
+2026.06.02 15:18:31 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/App.java. Using fallback presentation compiler.
+2026.06.02 15:18:33 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/App.java. Using fallback presentation compiler.
+2026.06.02 15:19:08 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/App.java. Using fallback presentation compiler.
+2026.06.02 15:19:08 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/App.java. Using fallback presentation compiler.
+2026.06.02 15:24:43 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/App.java. Using fallback presentation compiler.
+2026.06.02 15:29:22 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/App.java. Using fallback presentation compiler.
+2026.06.02 15:29:26 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/App.java. Using fallback presentation compiler.
+2026.06.02 15:29:37 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:29:37 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:29:37 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:29:37 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:29:38 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:29:38 WARN  no build target for: /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java
+2026.06.02 15:29:38 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:29:39 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:29:39 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:29:38 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:29:39 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:29:39 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:29:39 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:29:38 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:29:40 WARN  no build target for: /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java
+2026.06.02 15:29:40 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:29:42 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:30:00 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:30:00 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:30:01 WARN  no build target for: /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java
+2026.06.02 15:30:01 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:30:13 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:30:14 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:30:14 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:30:59 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:30:59 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:30:59 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:00 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:00 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:00 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:00 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:00 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:01 WARN  no build target for: /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java
+2026.06.02 15:31:01 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:01 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:01 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:02 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:04 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:18 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:18 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:18 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:20 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:20 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:20 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:20 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:20 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:20 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:20 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:20 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:22 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:22 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:22 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:22 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:22 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:22 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:23 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:23 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:23 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:23 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:23 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:23 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:24 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:24 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:24 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:24 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:24 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:24 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:24 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:24 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:25 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:25 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:25 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:25 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:25 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:25 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:25 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:26 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:26 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:26 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:26 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:26 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:27 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:27 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:27 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:27 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:27 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:27 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:29 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:29 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:30 WARN  no build target for: /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java
+2026.06.02 15:31:30 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:31 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:31 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:31 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:31 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:31 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:31 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:31 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:32 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:32 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:32 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:33 WARN  no build target for: /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java
+2026.06.02 15:31:33 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:32 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:32 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:32 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:32 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:34 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:34 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:34 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:34 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:35 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:35 WARN  no build target for: /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java
+2026.06.02 15:31:35 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:35 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:35 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:35 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:35 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:37 WARN  no build target for: /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java
+2026.06.02 15:31:37 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:37 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:37 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:38 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:38 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:38 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:38 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:38 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:38 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:39 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:40 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:40 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:40 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:40 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:41 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:41 WARN  no build target for: /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java
+2026.06.02 15:31:41 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:41 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:41 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:42 WARN  no build target for: /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java
+2026.06.02 15:31:42 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:42 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:42 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:42 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:42 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:42 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:42 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:44 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:44 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:44 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:44 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:45 WARN  no build target for: /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java
+2026.06.02 15:31:45 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:45 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:45 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:45 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:45 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:46 WARN  no build target for: /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java
+2026.06.02 15:31:46 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:46 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:46 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:46 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:46 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:46 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:48 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:48 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:48 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:49 WARN  no build target for: /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java
+2026.06.02 15:31:49 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:52 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:53 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:53 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:53 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:53 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:53 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:59 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:31:59 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:32:00 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:32:01 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:32:01 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:32:01 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:32:01 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:32:01 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:32:01 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:32:01 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:32:01 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:32:02 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:32:02 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:32:02 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:32:01 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:32:02 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:32:02 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:32:02 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:32:02 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:32:03 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:32:03 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:32:03 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:32:03 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:32:03 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:32:03 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:32:04 WARN  no build target for: /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java
+2026.06.02 15:32:04 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:32:05 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:32:05 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:32:05 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:32:06 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:32:06 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:32:06 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:32:06 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:32:06 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:32:07 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:32:07 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:32:07 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:32:07 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:32:07 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:32:09 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:32:09 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:32:09 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:32:09 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:32:09 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:32:09 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:32:10 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:32:09 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:32:10 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:32:10 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:32:10 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:32:10 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:32:10 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:32:10 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:32:10 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:32:10 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:32:11 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:32:12 WARN  no build target for: /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java
+2026.06.02 15:32:12 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:32:11 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:32:11 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:32:12 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:32:12 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:32:12 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:32:12 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:32:13 WARN  no build target for: /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java
+2026.06.02 15:32:13 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:32:13 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:32:13 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:32:15 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:32:29 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:32:29 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:32:29 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:34:37 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/Controller.java. Using fallback presentation compiler.
+2026.06.02 15:47:09 INFO  no build target found for /home/kali/dadlaga../niilber/src/main/java/com/example/PrimaryController.java. Using fallback presentation compiler.
+2026.06.02 15:47:16 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/App.java. Using fallback presentation compiler.
+2026.06.02 15:47:16 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/App.java. Using fallback presentation compiler.
+2026.06.02 15:47:17 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/App.java. Using fallback presentation compiler.
+Jun 02, 2026 3:47:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 467
+2026.06.02 15:47:16 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/App.java. Using fallback presentation compiler.
+2026.06.02 15:47:16 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/App.java. Using fallback presentation compiler.
+2026.06.02 15:47:18 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/App.java. Using fallback presentation compiler.
+2026.06.02 15:47:18 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/App.java. Using fallback presentation compiler.
+2026.06.02 15:47:18 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/App.java. Using fallback presentation compiler.
+2026.06.02 15:47:18 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/App.java. Using fallback presentation compiler.
+2026.06.02 15:47:20 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/App.java. Using fallback presentation compiler.
+2026.06.02 15:47:20 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/App.java. Using fallback presentation compiler.
+2026.06.02 15:47:20 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/App.java. Using fallback presentation compiler.
+2026.06.02 15:47:20 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/App.java. Using fallback presentation compiler.
+2026.06.02 15:47:20 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/App.java. Using fallback presentation compiler.
+2026.06.02 15:47:20 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/App.java. Using fallback presentation compiler.
+2026.06.02 15:47:21 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/App.java. Using fallback presentation compiler.
+2026.06.02 15:47:21 WARN  no build target for: /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/App.java
+2026.06.02 15:47:21 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/App.java. Using fallback presentation compiler.
+2026.06.02 15:47:21 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/App.java. Using fallback presentation compiler.
+2026.06.02 15:49:42 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/SecondaryController.java. Using fallback presentation compiler.
+2026.06.02 15:49:42 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/SecondaryController.java. Using fallback presentation compiler.
+2026.06.02 15:49:42 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/SecondaryController.java. Using fallback presentation compiler.
+2026.06.02 15:49:43 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/SecondaryController.java. Using fallback presentation compiler.
+2026.06.02 15:49:49 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/SecondaryController.java. Using fallback presentation compiler.
+2026.06.02 15:49:49 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/SecondaryController.java. Using fallback presentation compiler.
+2026.06.02 15:49:50 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/SecondaryController.java. Using fallback presentation compiler.
+2026.06.02 15:49:50 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/SecondaryController.java. Using fallback presentation compiler.
+2026.06.02 15:49:55 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/SecondaryController.java. Using fallback presentation compiler.
+2026.06.02 15:49:55 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/resources/SecondaryController.java. Using fallback presentation compiler.
+2026.06.02 15:49:55 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/resources/SecondaryController.java. Using fallback presentation compiler.
+2026.06.02 15:49:55 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/resources/SecondaryController.java. Using fallback presentation compiler.
+2026.06.02 15:49:55 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/resources/SecondaryController.java. Using fallback presentation compiler.
+2026.06.02 15:49:56 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/resources/SecondaryController.java. Using fallback presentation compiler.
+2026.06.02 15:49:56 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/resources/SecondaryController.java. Using fallback presentation compiler.
+2026.06.02 15:49:57 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/resources/SecondaryController.java. Using fallback presentation compiler.
+2026.06.02 15:49:57 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/SecondaryController.java. Using fallback presentation compiler.
+2026.06.02 15:49:57 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/SecondaryController.java. Using fallback presentation compiler.
+2026.06.02 15:49:57 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/SecondaryController.java. Using fallback presentation compiler.
+2026.06.02 15:49:59 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/SecondaryController.java. Using fallback presentation compiler.
+2026.06.02 15:49:59 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/SecondaryController.java. Using fallback presentation compiler.
+2026.06.02 15:50:10 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/SecondaryController.java. Using fallback presentation compiler.
+2026.06.02 15:50:11 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/SecondaryController.java. Using fallback presentation compiler.
+2026.06.02 15:50:11 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/SecondaryController.java. Using fallback presentation compiler.
+2026.06.02 15:50:11 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/SecondaryController.java. Using fallback presentation compiler.
+2026.06.02 15:50:11 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/SecondaryController.java. Using fallback presentation compiler.
+2026.06.02 15:50:12 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/SecondaryController.java. Using fallback presentation compiler.
+2026.06.02 15:50:32 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/SecondaryController.java. Using fallback presentation compiler.
+2026.06.02 15:50:32 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/SecondaryController.java. Using fallback presentation compiler.
+2026.06.02 15:50:32 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/SecondaryController.java. Using fallback presentation compiler.
+2026.06.02 15:50:32 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/SecondaryController.java. Using fallback presentation compiler.
+2026.06.02 15:50:33 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/SecondaryController.java. Using fallback presentation compiler.
+2026.06.02 15:50:34 WARN  no build target for: /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/SecondaryController.java
+2026.06.02 15:50:34 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/SecondaryController.java. Using fallback presentation compiler.
+2026.06.02 15:50:35 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/SecondaryController.java. Using fallback presentation compiler.
+2026.06.02 15:50:35 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/SecondaryController.java. Using fallback presentation compiler.
+2026.06.02 15:50:35 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/SecondaryController.java. Using fallback presentation compiler.
+2026.06.02 15:50:54 INFO  Shutting down server
+2026.06.02 15:50:54 INFO  Memory monitor stopped
+2026.06.02 15:50:54 INFO  shutting down Metals
+2026.06.02 15:50:54 INFO  Exiting server
+2026.06.02 15:51:06 INFO  Started: Metals version 1.6.7 in folders '/home/kali/dadlaga..' for client Visual Studio Code 1.117.0.
+2026.06.02 15:51:06 INFO  Memory monitor started
+2026.06.02 15:51:06 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.06.02 15:51:06 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/SecondaryController.java. Using fallback presentation compiler.
+2026.06.02 15:51:08 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/SecondaryController.java. Using fallback presentation compiler.
+2026.06.02 15:51:08 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/SecondaryController.java. Using fallback presentation compiler.
+2026.06.02 15:51:08 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/SecondaryController.java. Using fallback presentation compiler.
+2026.06.02 15:51:08 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/SecondaryController.java. Using fallback presentation compiler.
+Jun 02, 2026 3:51:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+2026.06.02 15:51:08 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/SecondaryController.java. Using fallback presentation compiler.
+Jun 02, 2026 3:51:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9
+Jun 02, 2026 3:51:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10
+2026.06.02 15:51:08 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/SecondaryController.java. Using fallback presentation compiler.
+2026.06.02 15:51:10 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/SecondaryController.java. Using fallback presentation compiler.
+2026.06.02 15:51:10 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/SecondaryController.java. Using fallback presentation compiler.
+2026.06.02 15:51:11 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/SecondaryController.java. Using fallback presentation compiler.
+2026.06.02 15:51:12 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/SecondaryController.java. Using fallback presentation compiler.
+2026.06.02 15:51:12 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/SecondaryController.java. Using fallback presentation compiler.
+2026.06.02 15:51:12 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/SecondaryController.java. Using fallback presentation compiler.
+Jun 02, 2026 3:51:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19
+2026.06.02 15:51:13 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/SecondaryController.java. Using fallback presentation compiler.
+2026.06.02 15:51:14 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/SecondaryController.java. Using fallback presentation compiler.
+2026.06.02 15:52:32 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/SecondaryController.java. Using fallback presentation compiler.
+2026.06.02 15:52:33 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/SecondaryController.java. Using fallback presentation compiler.
+2026.06.02 15:52:33 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/SecondaryController.java. Using fallback presentation compiler.
+2026.06.02 15:52:38 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/SecondaryController.java. Using fallback presentation compiler.
+2026.06.02 15:52:38 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/SecondaryController.java. Using fallback presentation compiler.
+2026.06.02 15:52:39 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/SecondaryController.java. Using fallback presentation compiler.
+2026.06.02 15:52:38 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/SecondaryController.java. Using fallback presentation compiler.
+2026.06.02 15:52:38 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/SecondaryController.java. Using fallback presentation compiler.
+2026.06.02 15:52:40 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/SecondaryController.java. Using fallback presentation compiler.
+2026.06.02 15:52:40 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/SecondaryController.java. Using fallback presentation compiler.
+2026.06.02 15:52:41 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/SecondaryController.java. Using fallback presentation compiler.
+2026.06.02 15:52:49 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/SecondaryController.java. Using fallback presentation compiler.
+2026.06.02 15:52:49 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/SecondaryController.java. Using fallback presentation compiler.
+2026.06.02 15:55:56 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/App.java. Using fallback presentation compiler.
+2026.06.02 15:55:56 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/App.java. Using fallback presentation compiler.
+2026.06.02 15:55:56 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/App.java. Using fallback presentation compiler.
+2026.06.02 15:55:56 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/App.java. Using fallback presentation compiler.
+2026.06.02 15:55:56 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/App.java. Using fallback presentation compiler.
+2026.06.02 15:55:56 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/App.java. Using fallback presentation compiler.
+2026.06.02 15:55:57 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/App.java. Using fallback presentation compiler.
+2026.06.02 15:56:01 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/module-info.java. Using fallback presentation compiler.
+2026.06.02 15:56:01 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/module-info.java. Using fallback presentation compiler.
+2026.06.02 15:56:01 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/module-info.java. Using fallback presentation compiler.
+2026.06.02 15:56:01 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/module-info.java. Using fallback presentation compiler.
+2026.06.02 15:56:03 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/module-info.java. Using fallback presentation compiler.
+2026.06.02 15:56:03 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/module-info.java. Using fallback presentation compiler.
+2026.06.02 15:56:03 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/PrimaryController.java. Using fallback presentation compiler.
+2026.06.02 15:56:03 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/PrimaryController.java. Using fallback presentation compiler.
+2026.06.02 15:56:03 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/PrimaryController.java. Using fallback presentation compiler.
+2026.06.02 15:56:04 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/PrimaryController.java. Using fallback presentation compiler.
+2026.06.02 15:56:04 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/PrimaryController.java. Using fallback presentation compiler.
+2026.06.02 15:56:04 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/PrimaryController.java. Using fallback presentation compiler.
+2026.06.02 15:56:04 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/PrimaryController.java. Using fallback presentation compiler.
+2026.06.03 11:11:02 INFO  Started: Metals version 1.6.7 in folders '/home/kali/dadlaga..' for client Visual Studio Code 1.117.0.
+2026.06.03 11:11:02 INFO  Memory monitor started
+2026.06.03 11:11:02 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.06.03 11:11:04 INFO  restarted 0 presentation compilers
+2026.06.03 11:11:06 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/PrimaryController.java. Using fallback presentation compiler.
+2026.06.03 11:23:44 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/PrimaryController.java. Using fallback presentation compiler.
+2026.06.03 11:23:55 INFO  no build target found for /home/kali/dadlaga../bodlogo2/bodlogo2/src/main/java/com/example/PrimaryController.java. Using fallback presentation compiler.
