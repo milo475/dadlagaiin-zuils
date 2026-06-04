@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<TabPane prefHeight="620.0" prefWidth="900.0" tabClosingPolicy="UNAVAILABLE"
+         xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11"
+         fx:controller="com.library.PrimaryController">
+  <tabs>
+
+    <!-- ===== NOM BURTGEL ===== -->
+    <Tab text="Номийн бүртгэл">
+      <content>
+        <SplitPane dividerPositions="0.28">
+          <items>
+            <!-- Left: form -->
+            <VBox spacing="8" style="-fx-padding:15">
+              <Label text="Номын нэр" />
+              <TextField fx:id="txtTitle" promptText="Номын нэр" />
+              <Label text="Зохиогч" />
+              <TextField fx:id="txtAuthor" promptText="Зохиогч" />
+              <Label text="ISBN" />
+              <TextField fx:id="txtIsbn" promptText="ISBN" />
+              <Label text="Жанр" />
+              <TextField fx:id="txtGenre" promptText="Жанр" />
+              <Label text="Хэвлэгдсэн он" />
+              <TextField fx:id="txtYear" promptText="жш: 2020" />
+              <Label text="Нийт хувь" />
+              <TextField fx:id="txtCopies" promptText="жш: 5" />
+              <HBox spacing="8">
+                <Button text="Нэмэх" onAction="#handleAddBook" style="-fx-pref-width:80" />
+                <Button text="Устгах" onAction="#handleDeleteBook" style="-fx-pref-width:80" />
+                <Button text="Цэвэрлэх" onAction="#handleClearBook" style="-fx-pref-width:80" />
+              </HBox>
+              <Label fx:id="lblBookStatus" text="" style="-fx-text-fill:green" />
+            </VBox>
+            <!-- Right: table + search -->
+            <VBox spacing="8" style="-fx-padding:15">
+              <HBox spacing="8" alignment="CENTER_LEFT">
+                <Label text="Хайх:" />
+                <TextField fx:id="txtSearch" promptText="нэр / зохиогч / isbn" prefWidth="200" onKeyReleased="#handleSearch" />
+              </HBox>
+              <TableView fx:id="tblBooks" VBox.vgrow="ALWAYS" onMouseClicked="#handleTableClick">
+                <columns>
+                  <TableColumn fx:id="colId"        text="ID"        prefWidth="50"  />
+                  <TableColumn fx:id="colTitle"      text="Нэр"       prefWidth="180" />
+                  <TableColumn fx:id="colAuthor"     text="Зохиогч"   prefWidth="130" />
+                  <TableColumn fx:id="colIsbn"       text="ISBN"      prefWidth="110" />
+                  <TableColumn fx:id="colGenre"      text="Жанр"      prefWidth="90"  />
+                  <TableColumn fx:id="colYear"       text="Он"        prefWidth="55"  />
+                  <TableColumn fx:id="colTotal"      text="Нийт"      prefWidth="55"  />
+                  <TableColumn fx:id="colAvailable"  text="Боломжтой" prefWidth="80"  />
+                </columns>
+              </TableView>
+            </VBox>
+          </items>
+        </SplitPane>
+      </content>
+    </Tab>
+
+    <!-- ===== MEMBER BURTGEL ===== -->
+    <Tab text="Уншигчийн бүртгэл">
+      <content>
+        <SplitPane dividerPositions="0.28">
+          <items>
+            <VBox spacing="8" style="-fx-padding:15">
+              <Label text="Овог" />
+              <TextField fx:id="txtLastName" promptText="Овог" />
+              <Label text="Нэр" />
+              <TextField fx:id="txtFirstName" promptText="Нэр" />
+              <Label text="Имэйл" />
+              <TextField fx:id="txtEmail" promptText="Имэйл" />
+              <Label text="Утас" />
+              <TextField fx:id="txtPhone" promptText="Утас" />
+              <HBox spacing="8">
+                <Button text="Нэмэх" onAction="#handleAddMember" style="-fx-pref-width:80" />
+                <Button text="Устгах" onAction="#handleDeleteMember" style="-fx-pref-width:80" />
+                <Button text="Цэвэрлэх" onAction="#handleClearMember" style="-fx-pref-width:80" />
+              </HBox>
+              <Label fx:id="lblMemberStatus" text="" style="-fx-text-fill:green" />
+            </VBox>
+            <VBox spacing="8" style="-fx-padding:15">
+              <TableView fx:id="tblMembers" VBox.vgrow="ALWAYS" onMouseClicked="#handleMemberTableClick">
+                <columns>
+                  <TableColumn fx:id="colMemberId"    text="ID"    prefWidth="50"  />
+                  <TableColumn fx:id="colFirstName"   text="Нэр"   prefWidth="120" />
+                  <TableColumn fx:id="colLastName"    text="Овог"  prefWidth="120" />
+                  <TableColumn fx:id="colEmail"       text="Имэйл" prefWidth="160" />
+                  <TableColumn fx:id="colPhone"       text="Утас"  prefWidth="110" />
+                  <TableColumn fx:id="colRegDate"     text="Огноо" prefWidth="100" />
+                </columns>
+              </TableView>
+            </VBox>
+          </items>
+        </SplitPane>
+      </content>
+    </Tab>
+
+    <!-- ===== BORROW BURTGEL ===== -->
+    <Tab text="Түрээсийн бүртгэл">
+      <content>
+        <SplitPane dividerPositions="0.28">
+          <items>
+            <VBox spacing="8" style="-fx-padding:15">
+              <Label text="Номын ID" />
+              <TextField fx:id="txtBorrowBookId" promptText="Номын ID" />
+              <Label text="Уншигчийн ID" />
+              <TextField fx:id="txtBorrowMemberId" promptText="Уншигчийн ID" />
+              <Label text="Буцаах огноо" />
+              <TextField fx:id="txtDueDate" promptText="жш: 2025-12-31" />
+              <HBox spacing="8">
+                <Button text="Зээлдүүлэх" onAction="#handleBorrow" style="-fx-pref-width:100" />
+                <Button text="Буцаах" onAction="#handleReturn" style="-fx-pref-width:80" />
+              </HBox>
+              <Label fx:id="lblBorrowStatus" text="" style="-fx-text-fill:green" />
+            </VBox>
+            <VBox spacing="8" style="-fx-padding:15">
+              <TableView fx:id="tblBorrowings" VBox.vgrow="ALWAYS" onMouseClicked="#handleBorrowTableClick">
+                <columns>
+                  <TableColumn fx:id="colBorrowId"      text="ID"         prefWidth="50"  />
+                  <TableColumn fx:id="colBorrowBookId"  text="Номын ID"   prefWidth="80"  />
+                  <TableColumn fx:id="colBorrowMember"  text="Уншигч ID"  prefWidth="80"  />
+                  <TableColumn fx:id="colBorrowDate"    text="Зээлсэн"    prefWidth="100" />
+                  <TableColumn fx:id="colDueDate"       text="Буцаах"     prefWidth="100" />
+                  <TableColumn fx:id="colReturnDate"    text="Буцаасан"   prefWidth="100" />
+                  <TableColumn fx:id="colStatus"        text="Төлөв"      prefWidth="90"  />
+                </columns>
+              </TableView>
+            </VBox>
+          </items>
+        </SplitPane>
+      </content>
+    </Tab>
+
+  </tabs>
+</TabPane>
