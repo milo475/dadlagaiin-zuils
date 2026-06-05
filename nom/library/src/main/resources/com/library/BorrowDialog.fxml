@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox spacing="12" style="-fx-padding:20;-fx-min-width:360"
+      xmlns:fx="http://javafx.com/fxml/1"
+      xmlns="http://javafx.com/javafx/11"
+      fx:controller="com.library.BorrowDialogController">
+
+  <Label text="📖 Ном авах" style="-fx-font-size:16;-fx-font-weight:bold"/>
+  <Separator/>
+
+  <!-- Book info (readonly) -->
+  <Label text="Номын мэдээлэл" style="-fx-font-weight:bold"/>
+  <Label fx:id="lblBookInfo" text="" style="-fx-text-fill:#3d6b8e" wrapText="true"/>
+  <Separator/>
+
+  <!-- Reader info -->
+  <Label text="Уншигчийн мэдээлэл" style="-fx-font-weight:bold"/>
+
+  <GridPane hgap="10" vgap="8">
+    <Label text="Овог:"  GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+    <TextField fx:id="txtLastName"  promptText="Овог"  prefWidth="200" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+
+    <Label text="Нэр:"   GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+    <TextField fx:id="txtFirstName" promptText="Нэр"   prefWidth="200" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+
+    <Label text="Имэйл:" GridPane.rowIndex="2" GridPane.columnIndex="0"/>
+    <TextField fx:id="txtEmail"     promptText="Имэйл" prefWidth="200" GridPane.rowIndex="2" GridPane.columnIndex="1"/>
+
+    <Label text="Утас:"  GridPane.rowIndex="3" GridPane.columnIndex="0"/>
+    <TextField fx:id="txtPhone"     promptText="Утас"  prefWidth="200" GridPane.rowIndex="3" GridPane.columnIndex="1"/>
+
+    <Label text="Хугацаа:" GridPane.rowIndex="4" GridPane.columnIndex="0"/>
+    <ComboBox fx:id="cboDays" prefWidth="200" GridPane.rowIndex="4" GridPane.columnIndex="1"/>
+  </GridPane>
+
+  <Separator/>
+  <Label fx:id="lblError" text="" style="-fx-text-fill:red" wrapText="true"/>
+
+  <HBox spacing="10" alignment="CENTER_RIGHT">
+    <Button text="Болих"    onAction="#handleCancel" style="-fx-pref-width:80"/>
+    <Button text="✅ Баталгаажуулах" onAction="#handleConfirm"
+            style="-fx-background-color:#28a745;-fx-text-fill:white;-fx-pref-width:140"/>
+  </HBox>
+</VBox>

@@ -4,7 +4,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<TabPane prefHeight="620.0" prefWidth="900.0" tabClosingPolicy="UNAVAILABLE"
+<TabPane fx:id="tabPane" prefHeight="620.0" prefWidth="900.0" tabClosingPolicy="UNAVAILABLE"
          xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11"
          fx:controller="com.library.PrimaryController">
   <tabs>
@@ -74,13 +74,18 @@
               <Label text="Утас" />
               <TextField fx:id="txtPhone" promptText="Утас" />
               <HBox spacing="8">
-                <Button text="Нэмэх" onAction="#handleAddMember" style="-fx-pref-width:80" />
-                <Button text="Устгах" onAction="#handleDeleteMember" style="-fx-pref-width:80" />
-                <Button text="Цэвэрлэх" onAction="#handleClearMember" style="-fx-pref-width:80" />
+                <Button text="Нэмэх"  onAction="#handleAddMember"    style="-fx-pref-width:80" />
+                <Button text="Засах"  onAction="#handleUpdateMember"  style="-fx-pref-width:80" />
+                <Button text="Устгах" onAction="#handleDeleteMember"  style="-fx-pref-width:80" />
               </HBox>
+              <Button text="Цэвэрлэх" onAction="#handleClearMember" style="-fx-pref-width:80" />
               <Label fx:id="lblMemberStatus" text="" style="-fx-text-fill:green" />
             </VBox>
             <VBox spacing="8" style="-fx-padding:15">
+              <HBox spacing="8" alignment="CENTER_LEFT">
+                <Label text="Хайх:" />
+                <TextField fx:id="txtMemberSearch" promptText="нэр / имэйл / утас" prefWidth="200" onKeyReleased="#handleMemberSearch" />
+              </HBox>
               <TableView fx:id="tblMembers" VBox.vgrow="ALWAYS" onMouseClicked="#handleMemberTableClick">
                 <columns>
                   <TableColumn fx:id="colMemberId"    text="ID"    prefWidth="50"  />

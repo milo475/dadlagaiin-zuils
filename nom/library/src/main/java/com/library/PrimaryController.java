@@ -16,6 +16,8 @@ import java.util.ResourceBundle;
 
 public class PrimaryController implements Initializable {
 
+    @FXML private TabPane tabPane;
+
     // ---- BOOK TAB ----
     @FXML private TextField txtTitle, txtAuthor, txtIsbn, txtGenre, txtYear, txtCopies, txtSearch;
     @FXML private TableView<Book> tblBooks;
@@ -24,8 +26,9 @@ public class PrimaryController implements Initializable {
     @FXML private Label lblBookStatus;
 
     // ---- MEMBER TAB ----
-    @FXML private TextField txtFirstName, txtLastName, txtEmail, txtPhone;
+    @FXML private TextField txtFirstName, txtLastName, txtEmail, txtPhone, txtMemberSearch;
     @FXML private TableView<Member> tblMembers;
+    private int selectedMemberId = -1;
     @FXML private TableColumn<Member, Integer> colMemberId;
     @FXML private TableColumn<Member, String>  colFirstName, colLastName, colEmail, colPhone, colRegDate;
     @FXML private Label lblMemberStatus;
@@ -69,6 +72,14 @@ public class PrimaryController implements Initializable {
         loadBooks();
         loadMembers();
         loadBorrowings();
+
+        // Tab сонгоход автоматаар reload хийнэ
+        tabPane.getSelectionModel().selectedIndexProperty().addListener((obs, oldIdx, newIdx) -> {
+            int i = newIdx.intValue();
+            // 0=Номийн бүртгэл, 1=Уншигчийн бүртгэл, 2=Түрээсийн бүртгэл
+            if (i == 1) loadMembers();
+            else if (i == 2) loadBorrowings();
+        });
     }
 
     // ========== BOOK ==========
@@ -147,6 +158,39 @@ public class PrimaryController implements Initializable {
         } catch (Exception ex) { status(lblMemberStatus, ex.getMessage(), false); }
     }
 
+    @FXML void handleUpdateMember(ActionEvent e) {
+        if (selectedMemberId == -1) { status(lblMemberStatus, "Засах уншигчаа сонгоно уу", false); return; }
+        String sql = "UPDATE members SET first_name=?, last_name=?, email=?, phone=? WHERE id=?";
+        try (Connection c = DatabaseConnection.getConnection(); PreparedStatement ps = c.prepareStatement(sql)) {
+            ps.setString(1, txtFirstName.getText()); ps.setString(2, txtLastName.getText());
+            ps.setString(3, txtEmail.getText()); ps.setString(4, txtPhone.getText());
+            ps.setInt(5, selectedMemberId);
+            ps.executeUpdate();
+            handleClearMember(e); loadMembers();
+            status(lblMemberStatus, "Амжилттай заслаа", true);
+        } catch (Exception ex) { status(lblMemberStatus, ex.getMessage(), false); }
+    }
+
+    @FXML void handleMemberSearch() {
+        String k = txtMemberSearch.getText().trim();
+        try { tblMembers.setItems(k.isEmpty() ? getMembersFromDB() : searchMembers(k)); }
+        catch (SQLException e) { status(lblMemberStatus, e.getMessage(), false); }
+    }
+
+    private ObservableList<Member> searchMembers(String k) throws SQLException {
+        ObservableList<Member> list = FXCollections.observableArrayList();
+        String sql = "SELECT * FROM members WHERE first_name LIKE ? OR last_name LIKE ? OR email LIKE ? OR phone LIKE ?";
+        try (Connection c = DatabaseConnection.getConnection(); PreparedStatement ps = c.prepareStatement(sql)) {
+            String p = "%" + k + "%";
+            ps.setString(1, p); ps.setString(2, p); ps.setString(3, p); ps.setString(4, p);
+            ResultSet rs = ps.executeQuery();
+            while (rs.next())
+                list.add(new Member(rs.getInt("id"), rs.getString("first_name"), rs.getString("last_name"),
+                        rs.getString("email"), rs.getString("phone"), str(rs.getDate("registered_date"))));
+        }
+        return list;
+    }
+
     @FXML void handleDeleteMember(ActionEvent e) {
         Member sel = tblMembers.getSelectionModel().getSelectedItem();
         if (sel == null) { status(lblMemberStatus, "Устгах уншигчаа сонгоно уу", false); return; }
@@ -159,12 +203,15 @@ public class PrimaryController implements Initializable {
 
     @FXML void handleClearMember(ActionEvent e) {
         txtFirstName.clear(); txtLastName.clear(); txtEmail.clear(); txtPhone.clear();
+        if (txtMemberSearch != null) txtMemberSearch.clear();
+        selectedMemberId = -1;
         lblMemberStatus.setText("");
     }
 
     @FXML void handleMemberTableClick(MouseEvent e) {
         Member sel = tblMembers.getSelectionModel().getSelectedItem();
         if (sel == null) return;
+        selectedMemberId = sel.getId();
         txtFirstName.setText(sel.getFirstName()); txtLastName.setText(sel.getLastName());
         txtEmail.setText(sel.getEmail()); txtPhone.setText(sel.getPhone());
     }

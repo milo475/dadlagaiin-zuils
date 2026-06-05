@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane prefWidth="900" prefHeight="620"
+            xmlns:fx="http://javafx.com/fxml/1"
+            xmlns="http://javafx.com/javafx/11"
+            fx:controller="com.library.UserController">
+
+  <!-- TOP: header + search -->
+  <top>
+    <VBox style="-fx-background-color:#3d6b8e;-fx-padding:12">
+      <Label text="📚 Номын сан — Уншигчийн хэсэг"
+             style="-fx-text-fill:white;-fx-font-size:18;-fx-font-weight:bold"/>
+      <HBox spacing="8" alignment="CENTER_LEFT">
+        <VBox.margin><Insets top="8"/></VBox.margin>
+        <Label text="Хайх:" style="-fx-text-fill:white"/>
+        <TextField fx:id="txtSearch" promptText="Нэр / Зохиогч / Жанр" prefWidth="280" onKeyReleased="#handleSearch"/>
+        <Button text="🔍 Хайх" onAction="#handleSearch" style="-fx-background-color:#5a9fd4;-fx-text-fill:white"/>
+        <Button text="Бүгд харах" onAction="#handleShowAll" style="-fx-background-color:#6c757d;-fx-text-fill:white"/>
+      </HBox>
+    </VBox>
+  </top>
+
+  <!-- CENTER: book table + detail panel -->
+  <center>
+    <SplitPane dividerPositions="0.6">
+      <!-- Left: book list -->
+      <TableView fx:id="tblBooks" onMouseClicked="#handleTableClick">
+        <columns>
+          <TableColumn fx:id="colId"       text="ID"        prefWidth="45"/>
+          <TableColumn fx:id="colTitle"    text="Нэр"       prefWidth="180"/>
+          <TableColumn fx:id="colAuthor"   text="Зохиогч"   prefWidth="130"/>
+          <TableColumn fx:id="colIsbn"     text="ISBN"      prefWidth="110"/>
+          <TableColumn fx:id="colGenre"    text="Жанр"      prefWidth="90"/>
+          <TableColumn fx:id="colYear"     text="Он"        prefWidth="55"/>
+          <TableColumn fx:id="colTotal"    text="Нийт"      prefWidth="55"/>
+          <TableColumn fx:id="colAvail"    text="Боломжтой" prefWidth="80"/>
+        </columns>
+        <placeholder><Label text="Ном олдсонгүй"/></placeholder>
+      </TableView>
+
+      <!-- Right: detail + borrow button -->
+      <VBox spacing="10" style="-fx-padding:16;-fx-background-color:#f8f9fa">
+        <Label text="Номын мэдээлэл" style="-fx-font-size:15;-fx-font-weight:bold"/>
+        <Separator/>
+        <GridPane hgap="8" vgap="8">
+          <Label text="ID:"          GridPane.rowIndex="0" GridPane.columnIndex="0" style="-fx-font-weight:bold"/>
+          <Label fx:id="lblId"       GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+          <Label text="Нэр:"         GridPane.rowIndex="1" GridPane.columnIndex="0" style="-fx-font-weight:bold"/>
+          <Label fx:id="lblTitle"    GridPane.rowIndex="1" GridPane.columnIndex="1" wrapText="true" maxWidth="160"/>
+          <Label text="Зохиогч:"     GridPane.rowIndex="2" GridPane.columnIndex="0" style="-fx-font-weight:bold"/>
+          <Label fx:id="lblAuthor"   GridPane.rowIndex="2" GridPane.columnIndex="1"/>
+          <Label text="ISBN:"        GridPane.rowIndex="3" GridPane.columnIndex="0" style="-fx-font-weight:bold"/>
+          <Label fx:id="lblIsbn"     GridPane.rowIndex="3" GridPane.columnIndex="1"/>
+          <Label text="Жанр:"        GridPane.rowIndex="4" GridPane.columnIndex="0" style="-fx-font-weight:bold"/>
+          <Label fx:id="lblGenre"    GridPane.rowIndex="4" GridPane.columnIndex="1"/>
+          <Label text="Он:"          GridPane.rowIndex="5" GridPane.columnIndex="0" style="-fx-font-weight:bold"/>
+          <Label fx:id="lblYear"     GridPane.rowIndex="5" GridPane.columnIndex="1"/>
+          <Label text="Нийт:"        GridPane.rowIndex="6" GridPane.columnIndex="0" style="-fx-font-weight:bold"/>
+          <Label fx:id="lblTotal"    GridPane.rowIndex="6" GridPane.columnIndex="1"/>
+          <Label text="Боломжтой:"   GridPane.rowIndex="7" GridPane.columnIndex="0" style="-fx-font-weight:bold"/>
+          <Label fx:id="lblAvail"    GridPane.rowIndex="7" GridPane.columnIndex="1"/>
+        </GridPane>
+        <Separator/>
+        <Button fx:id="btnBorrow" text="📖 Ном авах" onAction="#handleBorrow"
+                style="-fx-background-color:#28a745;-fx-text-fill:white;-fx-font-size:14;-fx-pref-width:160"
+                disable="true"/>
+        <Label fx:id="lblStatus" text="" wrapText="true" maxWidth="180"/>
+      </VBox>
+    </SplitPane>
+  </center>
+
+</BorderPane>

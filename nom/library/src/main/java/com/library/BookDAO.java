@@ -21,8 +21,12 @@ public class BookDAO {
     }
 
     public static ObservableList<Book> search(String keyword) throws SQLException {
+        return searchByTitleAuthorGenre(keyword);
+    }
+
+    public static ObservableList<Book> searchByTitleAuthorGenre(String keyword) throws SQLException {
         ObservableList<Book> list = FXCollections.observableArrayList();
-        String sql = "SELECT * FROM books WHERE title LIKE ? OR author LIKE ? OR isbn LIKE ?";
+        String sql = "SELECT * FROM books WHERE title LIKE ? OR author LIKE ? OR genre LIKE ?";
         try (Connection c = DatabaseConnection.getConnection();
              PreparedStatement ps = c.prepareStatement(sql)) {
             String k = "%" + keyword + "%";

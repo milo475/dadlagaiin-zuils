@@ -8,31 +8,39 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-/**
- * JavaFX App
- */
 public class App extends Application {
 
-    private static Scene scene;
+    private static Stage primaryStage;
 
     @Override
     public void start(Stage stage) throws IOException {
-        scene = new Scene(loadFXML("main"), 640, 480);
-        stage.setScene(scene);
+        primaryStage = stage;
+        stage.setTitle("Номын сан");
+        stage.setScene(new Scene(load("login"), 340, 300));
         stage.show();
     }
 
-    static void setRoot(String fxml) throws IOException {
-        scene.setRoot(loadFXML(fxml));
+    /** Admin: 3 табтай бүтэн view */
+    public static void openAdmin() {
+        try {
+            primaryStage.setScene(new Scene(load("main"), 920, 640));
+            primaryStage.setTitle("Номын сан — Админ");
+        } catch (IOException e) { e.printStackTrace(); }
     }
 
-    private static Parent loadFXML(String fxml) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(App.class.getResource(fxml + ".fxml"));
-        return fxmlLoader.load();
+    /** User: зөвхөн уншигчийн хэсэг */
+    public static void openUser() {
+        try {
+            primaryStage.setScene(new Scene(load("user"), 920, 640));
+            primaryStage.setTitle("Номын сан — Уншигч");
+        } catch (IOException e) { e.printStackTrace(); }
+    }
+
+    private static Parent load(String fxml) throws IOException {
+        return new FXMLLoader(App.class.getResource(fxml + ".fxml")).load();
     }
 
     public static void main(String[] args) {
         launch();
     }
-
 }
