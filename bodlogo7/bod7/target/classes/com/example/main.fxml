@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="360.0" prefWidth="500.0" spacing="10"
+      xmlns="http://javafx.com/javafx/25.0.1"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.example.mainController">
+   <padding><Insets bottom="10" left="10" right="10" top="10"/></padding>
+   <children>
+      <TextArea prefHeight="200.0" prefWidth="480.0" editable="false"
+                text="RGB7091 - Шоо&#10;&#10;k ширхэг шоог орхиход /хаяхад/ буух ялгаатай буултын тоог ол. Шоо нь 1, 2, 3, 4, 5, 6 гэсэн тоонуудын аль нэгээр бууна.&#10;&#10;Input&#10;Шооны тоо n өгөгдөнө. n&lt;=50&#10;&#10;Output&#10;Ялгаатай буултын тоо.&#10;&#10;Example&#10;Input: 6&#10;Output: 462">
+         <padding><Insets bottom="10" left="10" right="10" top="10"/></padding>
+      </TextArea>
+      <TextField fx:id="txtInput" promptText="input" prefWidth="480.0" style="-fx-background-radius: 50;"/>
+      <Button fx:id="txtShalgah" text="Шалгах" onAction="#shalgah"
+              prefWidth="480.0" style="-fx-background-radius: 50;"/>
+      <TextField fx:id="txtOutput" promptText="output" prefWidth="480.0"
+                 editable="false" style="-fx-background-radius: 50;"/>
+   </children>
+</VBox>
