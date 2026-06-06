@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mainController">
+   <children>
+      <TextArea layoutY="7.0" prefHeight="136.0" prefWidth="600.0" style="-fx-background-color: #3D3532;" text="&#10;RGB7182 - Метро&#10;&#10;Улаанбаатар хотод удахгүй метро байгуулагдаж метрогоор 1 удаа явах билетны үнэ 15 төгрөг, 5 удаа явах билетны үнэ 70 төгрөг, 10 удаа явах билетны үнэ 125 төгрөг, 20 удаа явах билетны үнэ 230 төгрөг, 60 удаа явах билетны үнэ 440 төгрөгний үнэтэй багцууд байхаар тогтоох юм байна. Хотын иргэд метрогоор N удаа зорчихоор төлөвлөж байгаа.  Иргэний  худалдан авах билетны нийт үнэ нь хамгийн бага байхаар N-ээс багагүй зорчихын тулд ямар багцын билетнээс хичнээнийг авахыг тооцоолох програм зохио. &#10;&#10;Input&#10;Зорчих тоо N (N&lt;1000) байна.&#10;&#10;Output&#10;Таван бүхэл тоо байна. Энэ нь харгалзан 1, 5, 10, 20, 60 удаа явах багцуудаас сонгох авах тоо байна.&#10;&#10;Example&#10;Input:&#10;&#10;86&#10;&#10;Output:&#10;&#10;1 1 0 1 1">
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </TextArea>
+      <TextField fx:id="txtInput" layoutX="191.0" layoutY="151.0" promptText="input" style="-fx-background-radius: 50;" />
+      <Button fx:id="txtShalgah" layoutX="246.0" layoutY="188.0" mnemonicParsing="false" onAction="#shalgah" style="-fx-background-radius: 50;" text="shalgah" />
+      <TextField fx:id="txtOutput" layoutX="196.0" layoutY="232.0" promptText="output" style="-fx-background-radius: 50;" />
+   </children>
+</AnchorPane>
