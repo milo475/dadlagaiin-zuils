@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="TOP_CENTER" prefHeight="480.0" prefWidth="640.0" spacing="14.0"
+      style="-fx-background-color: #0D1117;"
+      xmlns="http://javafx.com/javafx/13" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.example.mainController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+
+    <TextArea editable="false" prefHeight="150.0" wrapText="true"
+              style="-fx-control-inner-background: #161B22; -fx-text-fill: #E6EDF3; -fx-font-size: 12; -fx-background-radius: 8;"
+              text="RGB7406 - Илэрхийлэл 1&#10;&#10;1*2  + 2*3*4 + 3*4*5*6 + ... + n*(n+1)*...*2*n илэрхийллийг бод.&#10;&#10;Input&#10;Натурал тоо n өгөгдөнө. n&lt;10.&#10;&#10;Output&#10;Илэрхийллийн утга.&#10;&#10;Example&#10;Input:&#10;2&#10;&#10;Output:&#10;26" />
+
+    <Label text="n утгыг сонго (n &lt; 10):" style="-fx-text-fill: #58A6FF; -fx-font-size: 13;" />
+    <ComboBox fx:id="comboN" prefWidth="120.0"
+              style="-fx-background-color: #21262D; -fx-text-fill: #E6EDF3;" />
+
+    <Button text="Тооцоолох" onAction="#shalgah"
+            style="-fx-background-color: #238636; -fx-text-fill: #FFFFFF; -fx-font-size: 13; -fx-background-radius: 20; -fx-padding: 8 30 8 30;" />
+
+    <Label text="Үр дүн:" style="-fx-text-fill: #3FB950; -fx-font-size: 13;" />
+    <Label fx:id="lblOutput" text="-"
+           style="-fx-text-fill: #F78166; -fx-font-size: 32; -fx-font-weight: bold;" />
+</VBox>
