@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="TOP_CENTER" prefHeight="500.0" prefWidth="640.0" spacing="12.0"
+      style="-fx-background-color: #1E1E2E;"
+      xmlns="http://javafx.com/javafx/13" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.example.mainController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+
+    <!-- Бодлогын текст -->
+    <TextArea editable="false" prefHeight="160.0" wrapText="true"
+              style="-fx-control-inner-background: #2A2A3E; -fx-text-fill: #CDD6F4; -fx-font-size: 12; -fx-background-radius: 8;"
+              text="RGB7603 - Супер жаал саад тойрон&#10;&#10;Супер жаал 3 янзаар урагшилж чаддаг: дараагийн гишгүүрт очих, 1 болон 2 гишгүүр алгасаж чадна. Замд k ширхэг цөмөрсөн шат байгаа бол хичнээн ялгаатай маршрутаар n-р гишгүүрт хүрэх вэ.&#10;&#10;Input: n (гишгүүрийн тоо, 3&lt;n&lt;100), цөмөрсөн шатны дугаарууд&#10;Output: маршрутын тоо Example
+Input:
+10
+3
+4 7 8
+Output:
+10
+
+" />
+
+    <Label text="Гишгүүрийн тоо (n):" style="-fx-text-fill: #89B4FA; -fx-font-size: 13;" />
+    <Spinner fx:id="spinnerN" min="4" max="99" initialValue="10"
+             style="-fx-background-color: #313244; -fx-text-fill: #CDD6F4;"
+             prefWidth="120.0" editable="true" />
+
+    <Label text="Цөмөрсөн шатны дугаарууд (зайгаар тусгаарлан):" style="-fx-text-fill: #89B4FA; -fx-font-size: 13;" />
+    <TextArea fx:id="txtBroken" prefHeight="60.0" promptText="input"
+              style="-fx-control-inner-background: #313244; -fx-text-fill: #CDD6F4; -fx-background-radius: 8;" />
+
+    <Button text="Тооцоолох" onAction="#shalgah"
+            style="-fx-background-color: #89B4FA; -fx-text-fill: #1E1E2E; -fx-font-size: 13; -fx-background-radius: 20; -fx-padding: 8 30 8 30;" />
+
+    <Label text="Маршрутын тоо:" style="-fx-text-fill: #A6E3A1; -fx-font-size: 13;" />
+    <Label fx:id="lblOutput" text="-"
+           style="-fx-text-fill: #F38BA8; -fx-font-size: 28; -fx-font-weight: bold;" />
+</VBox>
